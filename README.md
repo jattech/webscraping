@@ -42,16 +42,3 @@ Puedes instalarlas ejecutando:
 
 ```bash
 pip install requests beautifulsoup4
-
-Uso
-app.py: Ejecuta el script para analizar el archivo index.html y mostrar los elementos <li>:
-
-htmlpar.py: Ejecuta el script para extraer el título y los enlaces del archivo index.html:
-
-pokemon.py: Ejecuta el script para obtener información sobre Pokémon desde Wikidex:
-
-reg.py: Ejecuta el script para extraer el título de una página web dada una URL:
-
-Notas
-Asegúrate de tener conexión a Internet para los scripts que realizan solicitudes HTTP (pokemon.py y reg.py).
-El archivo index.html debe estar en el mismo directorio que los scripts para que app.py y htmlpar.py funcionen correctamente.
